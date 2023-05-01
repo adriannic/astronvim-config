@@ -8,7 +8,8 @@ return {
       "rust",
       "c",
       "cpp",
-      "bash"
+      "bash",
+      "java"
     })
   end,
 }
