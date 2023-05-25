@@ -48,6 +48,9 @@ return {
         -- enable servers that you already have installed without mason
         servers = {
             -- "pyright"
+        },
+        config = {
+            clangd = {capabilities = {offsetEncoding = "utf-8"}}
         }
     },
 
