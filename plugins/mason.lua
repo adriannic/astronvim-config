@@ -9,6 +9,7 @@ return {
       if not opts.ensure_installed then opts.ensure_installed = {} end
       require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- "lua_ls",
+        "clangd",
       })
     end,
   },
@@ -22,6 +23,8 @@ return {
       require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- "prettier",
         -- "stylua",
+        "cpplint",
+        "clang-format",
       })
     end,
   },
@@ -33,6 +36,7 @@ return {
       if not opts.ensure_installed then opts.ensure_installed = {} end
       require("astronvim.utils").list_insert_unique(opts.ensure_installed, {
         -- "python",
+        "codelldb",
       })
     end,
   },
