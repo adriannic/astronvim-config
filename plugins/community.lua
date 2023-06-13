@@ -9,6 +9,8 @@ return {
   { import = "astrocommunity.bars-and-lines.feline-nvim" },
   { import = "astrocommunity.bars-and-lines.heirline-vscode-winbar" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.diagnostics.lsp_lines-nvim" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.editing-support.dial-nvim" },
   { import = "astrocommunity.motion.hop-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
