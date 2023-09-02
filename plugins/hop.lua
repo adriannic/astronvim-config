@@ -4,7 +4,8 @@ return {
   keys = {
     {
       "<leader>j",
-      desc = "Jump"
+      desc = "Jump",
+      mode = { "n", "v" }
     },
     {
       "<leader>jw",
