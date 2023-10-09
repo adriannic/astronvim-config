@@ -5,7 +5,7 @@ return {
     {
       "<leader>j",
       desc = "Jump",
-      mode = { "n", "v" }
+      mode = { "n", "v" },
     },
     {
       "<leader>jw",
@@ -33,4 +33,3 @@ return {
     },
   },
 }
-
