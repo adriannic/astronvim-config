@@ -7,6 +7,7 @@ return {
   { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.editing-support.dial-nvim" },
   { import = "astrocommunity.fuzzy-finder.telescope-zoxide" },
   { import = "astrocommunity.lsp.lsp-inlayhints-nvim" },
