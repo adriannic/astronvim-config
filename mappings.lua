@@ -28,8 +28,14 @@ return {
       function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
       desc = "Previous buffer",
     },
+    ["<A-j>"] = { ":m+<cr>==", desc = "Move line down" },
+    ["<A-k>"] = { ":m .-2<cr>==", desc = "Move line up" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+  },
+  i = {
+    ["<A-j>"] = { "<esc>:m+<cr>==i", desc = "Move line down" },
+    ["<A-k>"] = { "<esc>:m .-2<cr>==i", desc = "Move line up" },
   },
   t = {
     -- setting a mapping to false will disable it
