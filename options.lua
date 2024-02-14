@@ -11,6 +11,7 @@ return {
     shiftwidth = 2,
     scrolloff = 8,
     sidescrolloff = 8,
+    undofile = true,
   },
   g = {
     mapleader = " ",                 -- sets vim.g.mapleader
